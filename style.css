@@ -1,16 +1,19 @@
 html {
-     background: url(images/battlefield.jpg) no-repeat center center fixed; 
+     background: url(images/background.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; 
+  overflow: auto;
 }
 
-.is-half {
-  width: 50%;
+.introimage {
   border: 5px solid black;
+  height: 540px !important;
+  object-fit: cover;
 }
 
 iframe {
   border: none;
 }
+
