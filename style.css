@@ -10,3 +10,7 @@ html {
   width: 50%;
   border: 5px solid black;
 }
+
+iframe {
+  border: none;
+}
