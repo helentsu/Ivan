@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap');
+
 html {
      background: url(images/background.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
@@ -5,15 +7,31 @@ html {
   -o-background-size: cover;
   background-size: cover; 
   overflow: auto;
+  text-align: left;
 }
 
-.introimage {
-  border: 5px solid black;
-  height: 540px !important;
-  object-fit: cover;
+body, button {
+  font-family: 'Rowdies', cursive;
 }
 
 iframe {
   border: none;
 }
 
+div.transbox p {
+  margin: 5%;
+  font-weight: bold;
+  color: #000000;
+}
+
+.transparent-box {
+  background: url(images/transparent-box.png);
+  display: inline-block;
+  color: white;
+  padding: 5px;
+}
+
+.bordered-image {
+  border: 10px solid transparent;
+  border-image: url(images/transparent-box.png) 40% round;
+}
