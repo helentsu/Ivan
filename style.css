@@ -1,37 +1,52 @@
 @import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap');
+:root {
+  --light: 255, 255, 255;
+}
 
 html {
-     background: url(images/war.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover; 
-  overflow: auto;
-  text-align: left;
+  background-color: black;
 }
 
-body, button {
+body {
   font-family: 'Rowdies', cursive;
+  font-size: 18px;
+  font-weight: 300;
+  color: rgb(var(--light), .9);
 }
 
-iframe {
-  border: none;
+.hero-body .title {
+  color: rgb(var(--light), .9);
+  font-weight: 400;
+  font-size: 6rem;
+  text-shadow: 3px 3px 30px black;
 }
 
-div.transbox p {
-  margin: 5%;
-  font-weight: bold;
-  color: #000000;
+.hero-body .subtitle {
+  color: rgb(var(--light), .75);
+  font-size: 2rem;
+  font-weight: 300;
+  text-shadow: 3px 3px 30px black;
 }
 
-.transparent-box {
-  background: url(images/transparent-box.png);
-  display: inline-block;
-  color: white;
-  padding: 5px;
+.is-art {
+  background-image: url(images/war.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.bordered-image {
-  border: 10px solid transparent;
-  border-image: url(images/transparent-box.png) 40% round;
+.margin-offset {
+  margin-top: -200px;
+  padding: 1rem;
+  background-color: rgb(var(--light), .075);
+  border-radius: .5rem;
+  box-shadow: 1px 1px 50px 10px black;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-top: 40px;
+  margin-bottom: 60px;
+  text-shadow: 3px 3px 30px black;
 }
